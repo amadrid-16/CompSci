@@ -28,7 +28,7 @@ public class Human extends Animal {
 		System.out.println("Sorry dun't know how to do that, lel");
 	}
    public void sleep(){
-      System.out.println("ZZzzzzz ZZZZzzzz");
+      System.out.println("ZZzzzzz ZZZZzzzz Snorre");
    }
    public void breathe(){
       System.out.println("Huuuuuh Huuuugh Huhhh");
