@@ -1,19 +1,12 @@
 public class Color{
-   public int r;
-   public int g;
-   public int b;
-   public int rin;
-   public int gin;
-   public int bin;
+   public int r,g,b;
+   public int rin,gin,bin;
    public int decform;
-   public int redChange;
-   public int greenChange;
-   public int blueChange;
+   public int redChange,greenChange,blueChange;
    public int saturation;
    public int compareVal;
-   public String hexform;
+   public String hexform,rgb;
    public static String hexString;
-   public String rgb;
    public static int validNum;
    
    
@@ -30,10 +23,7 @@ public class Color{
    public Color(int rin, int gin, int bin){//uses the specific color inputs 
       this.r = Color.valid(rin);//for red component of the rgb input
       this.g = Color.valid(gin);//for green component of the rgb code
-      this.b = Color.valid(bin);//for th blue component of the rgb code
-      
-     
-      
+      this.b = Color.valid(bin);//for th blue component of the rgb code     
    }
    public String htmlHex(){
       //convert from rgb to hex
