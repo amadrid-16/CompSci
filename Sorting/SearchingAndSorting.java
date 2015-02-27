@@ -1,19 +1,23 @@
 public class SearchingAndSorting{
 
-   public static int sequentialSearch 0(int[] elements, int target)
-   {
+   public static int sequentialSearch(int[] elements, int target)
+   {//declaring static that returns an int with inputs of an int[]
       for (int j = 0; j < elements.length; j++)
-      {
+      {//loop through all of the ints in the elements array
          if (elements[j] == target)
-         {
+         {//check if the contents of elements[j] to see if it is equal to target
             return j;
-         }
+         }//if they do match then return the value of j
       }
    return -1;
+            
+   
+   
+   //if here isnt a match, then return -1
    }
    
    public static int binarySearch(int[] elements, int target)
-   {
+   {//creating static method with parameters
       int left = 0;
       int right = elements.length - 1;
 
