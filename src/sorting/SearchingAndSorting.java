@@ -19,7 +19,7 @@ public class SearchingAndSorting{
    
    public static int binarySearch(int[] elements, int target)
    {//creating static method with parameters
-      int left = 0;
+      int left = 0;//creates a leftmost variable
       int right = elements.length - 1;
 
       while (left <= right)
