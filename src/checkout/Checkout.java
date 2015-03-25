@@ -21,5 +21,8 @@ public class Checkout{
       checkoutArray = checkoutList.toArray(checkoutArray);//
       return numberOfItems;
    }
+   public void enterItem(DessertItem item){
+      checkoutList.add(item);
+   }
    
 }

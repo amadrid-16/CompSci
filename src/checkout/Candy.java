@@ -1,17 +1,17 @@
 package checkout;
 
 public class Candy extends DessertItem{
-   int cost, centsPerPound;
+   int cost, pricePerPound;
    double numPounds;
    String name;
    
-   public Candy(String name, double numPounds, int centsPerPound){
+   public Candy(String name, double numPounds, int pricePerPound){
       this.name = name;
       this.numPounds = numPounds;
-      this.centsPerPound = centsPerPound;
+      this.pricePerPound = pricePerPound;
    }
    public int getCost(){
-      this.cost = (int)this.numPounds * this.centsPerPound;
+      this.cost = (int)this.numPounds * this.pricePerPound;
       return this.cost;
    }
 }
